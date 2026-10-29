@@ -255,8 +255,6 @@ At the end of the setup, verify that:
 - The Wazuh MCP server shows **running** in Claude Developer settings.
 - Claude requests permission when invoking the MCP integration.
 - Claude can retrieve and summarize Wazuh SIEM alerts.
-curl -fsSL https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo gpg --dearmor --yes -o /usr/share/keyrings/wazuh.gpg
-sudo chmod 644 /usr/share/keyrings/wazuh.gpg
+
 ## Result
-https://medium.com/@iamblacklight/bringing-ai-to-siem-my-experiment-with-wazuh-mcp-server-and-claude-desktop-09f2aa15165d
 The environment is now configured so that the Wazuh SIEM can be queried through Claude Desktop using natural-language prompts via the Wazuh MCP server.
