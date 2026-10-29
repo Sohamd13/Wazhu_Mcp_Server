@@ -257,5 +257,5 @@ At the end of the setup, verify that:
 - Claude can retrieve and summarize Wazuh SIEM alerts.
 
 ## Result
-
+https://medium.com/@iamblacklight/bringing-ai-to-siem-my-experiment-with-wazuh-mcp-server-and-claude-desktop-09f2aa15165d
 The environment is now configured so that the Wazuh SIEM can be queried through Claude Desktop using natural-language prompts via the Wazuh MCP server.
